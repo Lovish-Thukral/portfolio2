@@ -32,22 +32,6 @@ I care deeply about:
 - AI: go beyond API usage and engineer inference, orchestration, and resource awareness
 - Reliability: build for failures, retries, sync issues, and degraded states
 
-## Experience Snapshot
-
-### ASWEBWORKS LLP — Software Developer Intern
-
-- Built backend systems for Noptch, an education and career platform
-- Designed normalized PostgreSQL schemas and lookup structures
-- Implemented bounded pagination to keep query performance stable as data grows
-- Developed the LMS backend using Node.js, Prisma, and MySQL
-- Built exam auto-save at a 1-minute interval with state synchronization across frontend sessions
-
-### Vidya Corporation — Full Stack Developer Trainee
-
-- Worked on a MERN-stack social media application
-- Implemented JWT auth, REST APIs, and MongoDB data modeling
-- Gained hands-on experience across the full product lifecycle from schema to UI integration
-
 ## Featured Projects
 
 ### 1. Sabrina AI
