@@ -1,5 +1,5 @@
 import { motion, useReducedMotion } from "motion/react";
-import portrait from "@/assets/portrait.png";
+import portrait from "@/assets/portrait.webp";
 import { PROFILE } from "@/lib/portfolio";
 import { Section } from "./primitives";
 
