@@ -1,9 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { lazy, Suspense } from "react";
+import { lazy, Suspense, useState } from "react";
 import Nav from "@/components/portfolio/Nav";
 import Hero from "@/components/portfolio/Hero";
+import LoadingScreen from "@/components/portfolio/LoadingScreen";
 import Mindset from "@/components/portfolio/Mindset";
-
 
 const Projects = lazy(() => import("@/components/portfolio/Projects"));
 const Stack = lazy(() => import("@/components/portfolio/Stack"));
@@ -29,8 +29,11 @@ export const Route = createFileRoute("/")({
 });
 
 function Index() {
+  const [loading, setLoading] = useState(true);
+
   return (
     <div id="top" className="min-h-screen bg-background">
+      {loading && <LoadingScreen onComplete={() => setLoading(false)} />}
       <Nav />
       <main>
         <Hero />
